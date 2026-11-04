@@ -9,9 +9,13 @@ slowapi
 llama-index-core
 llama-index-vector-stores-qdrant
 llama-index-llms-groq
-llama-index-embeddings-huggingface
 llama-index-retrievers-bm25
 llama-index-tools-tavily-research
+
+# Hosted embeddings (replaces local HuggingFace embeddings, which pulled in torch + CUDA)
+# Uncomment the one that matches the embedding provider you use:
+# llama-index-embeddings-openai
+# llama-index-embeddings-cohere
 
 # Vector Databases & Caching
 qdrant-client
@@ -24,4 +28,3 @@ openinference-instrumentation-llama-index
 python-dotenv
 nest-asyncio
 joblib
-sentence-transformers
