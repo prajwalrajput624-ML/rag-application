@@ -1,0 +1,27 @@
+# FastAPI & Server
+fastapi
+pydantic
+uvicorn
+requests
+slowapi
+
+# LlamaIndex Core & Integrations
+llama-index-core
+llama-index-vector-stores-qdrant
+llama-index-llms-groq
+llama-index-embeddings-huggingface
+llama-index-retrievers-bm25
+llama-index-tools-tavily-research
+
+# Vector Databases & Caching
+qdrant-client
+redisvl
+redis
+
+# Tracing, Monitoring & Utilities
+langfuse
+openinference-instrumentation-llama-index
+python-dotenv
+nest-asyncio
+joblib
+sentence-transformers
