@@ -16,6 +16,7 @@ llama-index-tools-tavily-research
 # Uncomment the one that matches the embedding provider you use:
 # llama-index-embeddings-openai
 # llama-index-embeddings-cohere
+llama-index-embeddings-huggingface-api
 
 # Vector Databases & Caching
 qdrant-client
